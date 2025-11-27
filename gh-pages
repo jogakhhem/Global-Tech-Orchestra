@@ -1,1 +1,5 @@
 git checkout -b gh-pages
+git add _config.yml index.md
+git commit -m "Add Jekyll Minimal theme for GU Lost and Found Hub"
+git push -u origin gh-pages
+
