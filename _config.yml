@@ -1,0 +1,21 @@
+# If your source is the project root
+source: .
+
+# Site settings
+title: GU Lost and Found Hub
+description: Report, search, and manage lost and found items
+baseurl: ""  # Leave empty for GitHub Pages root
+url: "https://jogakhhem.github.io"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Assets
+sass:
+  sass_dir: assets
+
+# Exclude from build
+exclude:
+  - README.md
+  - .gitignore
